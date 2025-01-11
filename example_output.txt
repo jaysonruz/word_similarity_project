@@ -48,10 +48,22 @@ Similar products to 'raw chicken':
   - BigBasket: Fresho Chicken Gizzard, 450 g (18 - 25 pcs approx.) - $79.0
   - BigBasket: Fresho Chicken Wings, 900 g (11 - 16 pcs approx.) - $299.0
 
-Similar products to 'cooking oil':
+Similar products to 'cooking oils':
   - No matching products found.
 
-Similar products to 'oils':
+Similar products to 'all kind of oils':
   - BigBasket: Parachute 100% Pure Coconut Oil, 300 ml - $108.75
 
-2025-01-11 13:52:36,957 [INFO] Total script execution time: 26.93s
+Similar products to 'unclassified':
+  - BigBasket: Bon Appetit Nuremberger - Chicken, 300 g Pouch - $326.0
+  - BigBasket: Ustraa Ayurvedic Hair Oil, 200 ml - $119.6
+  - BigBasket: Emami 7 Oils In One Light, Non-Sticky & Non-Greasy Hair Oil, 200 ml - $129.27
+  - BigBasket: Parachute Advansed Jasmine Coconut Hair Oil With Vitamin E - Non-Sticky, 90 ml - $38.0
+  - BigBasket: Parachute Advansed Ayurvedic Coconut Hair Oil for Hair Fall Control & Hair Growth, 300 ml - $155.8
+  - BigBasket: Parachute Advansed Sampoorna Coconut Hair Oil, 400 ml - $220.0
+  - BigBasket: Bajaj Almond Drops Non-Sticky Hair Oil - With 6X Vitamin E Nourishment, 190 ml - $137.74
+  - BigBasket: Emami 7 Oils In One Organics Onion Blackseed Hair Oil - Anti Hair-Fall, Non-Sticky, 200 ml - $220.0
+  - BigBasket: Kerala Ayurveda Neelibringadi Keram Daily Hair Oil with Bhringraj, Neeli, Karnasphota, and Amla, 200 ml - $350.0
+  - BigBasket: Dabur Vatika Enriched Coconut Hair Oil - With 10 Herbs, 300 ml - $153.0
+
+2025-01-11 14:04:45,170 [INFO] Total script execution time: 27.18s
