@@ -1,0 +1,145 @@
+[
+    {
+        "store": "Big Basket",
+        "name": "Yellow Dal",
+        "price": 3.20
+    },
+    {
+        "store": "Big Basket",
+        "name": "Tata Sampann Toor Dal/Togari Bele 500g Pouch",
+        "price": 105
+    },
+    {
+        "store": "Big Basket",
+        "name": "bb Popular Toor/Arhar Dal 5kg Pouch",
+        "price": 1085
+    },
+    {
+        "store": "Big Basket",
+        "name": "bb Royal Peanuts/Kadlekai - Raw 1kg Pouch",
+        "price": 209
+    },
+    {
+        "store": "Big Basket",
+        "name": "bb Royal Organic Toor Dal/Togari Bele 5kg Pouch",
+        "price": 938
+    },
+    {
+        "store": "Big Basket",
+        "name": "bb Royal Organic Raw Peanuts 2×1kg Multipack",
+        "price": 414
+    },
+    {
+        "store": "Big Basket",
+        "name": "bb Royal Toor Dal/Togari Bele - Desi 1kg Pouch",
+        "price": 194.5
+    },
+    {
+        "store": "Big Basket",
+        "name": "Tata Sampann Urad Dal/Ulundhu Bele Whole White 1kg",
+        "price": 192.5
+    },
+    {
+        "store": "Big Basket",
+        "name": "bb Popular Moong Dal/Hesaru Bele 500g Pouch",
+        "price": 99
+    },
+    {
+        "store": "Big Basket",
+        "name": "Tata Sampann Moong Dal/Hesaru Bele 500g Pouch",
+        "price": 172
+    },
+    {
+        "store": "Big Basket",
+        "name": "freshol Farm Eggs - Regular, 30 pcs",
+        "price": 229
+    },
+    {
+        "store": "Big Basket",
+        "name": "Eggoz Farm Fresh White Eggs, 30 pcs",
+        "price": 419
+    },
+    {
+        "store": "Big Basket",
+        "name": "Farm Made Free Range Eggs, 24 pcs",
+        "price": 529
+    },
+    {
+        "store": "Big Basket",
+        "name": "Abhi Eggs Nutri+ With Immunity Boosters, 24 pcs",
+        "price": 508.75
+    },
+    {
+        "store": "Big Basket",
+        "name": "SKM Best Plus Eggs, 12 pcs",
+        "price": 156
+    },
+    {
+        "store": "Big Basket",
+        "name": "freshol Farm Eggs - Medium, Brown, 10 pcs",
+        "price": 135
+    },
+    {
+        "store": "Big Basket",
+        "name": "Best Buy Eggs - Wholesome, Rich in Protein, Vitamins & Amino Acids, 30 pcs",
+        "price": 530
+    },
+    {
+        "store": "Big Basket",
+        "name": "UFP Healthy Brown Eggs - Large, Rich in Protein, Great For Bones, 30 pcs",
+        "price": 430
+    },
+    {
+        "store": "Big Basket",
+        "name": "Country Cage Free Eggs - Medium, 6 pcs",
+        "price": 110
+    },
+    {
+        "store": "BigBasket",
+        "name": "Fresho Chicken Breast - Boneless, 500 g (2 - 4 pcs approx.)",
+        "price": 189.00,
+        "url": "https://www.bigbasket.com/pd/10000900/fresho-chicken-breast-boneless-antibiotic-residue-free-4-5-pcs-500-g/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Venkys Chicken Nuggets, 1 kg",
+        "price": 635.00,
+        "url": "https://www.bigbasket.com/pd/800482767/venkys-chicken-nuggets-1-kg/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Fresho Jhatka Chicken Breast Boneless, 450 g (2 - 4 pcs approx.)",
+        "price": 309.00,
+        "url": "https://www.bigbasket.com/pd/40186923/fresho-jhatka-chicken-breast-boneless-antibiotic-residue-free-500-g/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Bon Appetit Nuremberger - Chicken, 300 g Pouch",
+        "price": 326.00,
+        "url": "https://www.bigbasket.com/pd/40003084/bon-appetit-nuremberger-chicken-300-g-pouch/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Fresho Chicken Breast - Boneless, 250 g (1 - 2 pcs approx.)",
+        "price": 99.00,
+        "url": "https://www.bigbasket.com/pd/10000901/fresho-chicken-breast-boneless-antibiotic-residue-free-250-g/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Fresho Chicken Gizzard, 450 g (18 - 25 pcs approx.)",
+        "price": 79.00,
+        "url": "https://www.bigbasket.com/pd/10000920/fresho-chicken-gizzard-antibiotic-residue-free-20-25-pcs-500-g/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Fresho Chicken Wings, 900 g (11 - 16 pcs approx.)",
+        "price": 299.00,
+        "url": "https://www.bigbasket.com/pd/10001012/fresho-chicken-wings-antibiotic-residue-free-1-kg/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Prasuma Spicy Chicken Momos, 24 pcs",
+        "price": 0,
+        "url": "https://www.bigbasket.com/pd/40177263/prasuma-chicken-momos-spicy-24-pcs/"
+    }
+]

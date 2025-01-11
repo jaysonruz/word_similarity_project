@@ -23,6 +23,9 @@ load_dotenv()
 # Set your OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
+# create openAI client
+client = openai.OpenAI()
+
 ##############################################################################
 # Read categories & products from JSON files
 ##############################################################################
@@ -31,64 +34,75 @@ with open("categories.json", "r") as f:
 
 with open("products.json", "r") as f:
     products = json.load(f)
-
 ##############################################################################
-# Helper Functions
+# Chat-Based Classification Function
 ##############################################################################
 
-def cosine_similarity(vec1, vec2):
-    """Compute the cosine similarity between two vectors."""
-    return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
+def classify_product(product_name: str, categories: list[str]) -> str:
+    """
+    Uses ChatCompletion to classify which ONE of the given categories
+    best fits the product_name. If none is appropriate, the model should say 'none'.
+    
+    Returns the category name as a string, or 'none'.
+    """
 
-def get_embedding(text: str) -> np.ndarray:
-    """
-    Create an embedding using the new top-level endpoint openai.embeddings.create
-    (for openai>=1.0).
-    """
-    start_time = time.time()
-    response = openai.embeddings.create(
-        model="text-embedding-ada-002",
-        input=text
+    # You can tune this prompt as needed:
+    system_prompt = (
+        """You are a helpful assistant that classifies food product names into one of the category or closest category. (food products can be indian origin) """
+        "If the product does not fit any of the categories, respond with 'none'."
     )
-    embedding = np.array(response.data[0].embedding)
-    end_time = time.time()
-    logger.info(f"get_embedding('{text[:20]}...') took {end_time - start_time:.2f}s")
-    return embedding
+    user_prompt = f"""
+    Categories: {', '.join(categories)}
+    
+    Product name: "{product_name}"
+    
+    Which ONE of these categories best describes this product? 
+    If none fit, say 'none'.
+    """
 
-def is_similar(text1: str, text2: str, threshold: float = 0.8) -> bool:
-    """
-    Determine if two texts are similar based on their embeddings.
-    """
     start_time = time.time()
-    embedding1 = get_embedding(text1)
-    embedding2 = get_embedding(text2)
-    similarity = cosine_similarity(embedding1, embedding2)
+    response = client.chat.completions.create(
+        model="gpt-4o",  # or another model if desired
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
+        temperature=0.0,  # keep it deterministic
+    )
     end_time = time.time()
+
     logger.info(
-        f"is_similar('{text1[:20]}...', '{text2[:20]}...'): "
-        f"similarity={similarity:.2f}, took {end_time - start_time:.2f}s"
+        f"classify_product('{product_name[:20]}...') took {end_time - start_time:.2f}s"
     )
-    return similarity > threshold
+
+    classification = response.choices[0].message.content.strip().lower()
+
+    return classification
 
 ##############################################################################
-# Core logic: For each category, find the products that match it
+# Core logic: For each product, ask the model which category it belongs to
 ##############################################################################
 
 def find_products_for_categories(products, categories):
     """
-    Returns a dict where each key is a category,
-    and each value is a list of products that match (are similar to) that category.
+    Returns a dict: { category_name: [products that were classified under it] }.
+    If the model answers 'none', we exclude that product from all categories.
     """
     start_time = time.time()
-    results_by_category = {}
 
-    for cat in categories:
-        matching_products = []
-        for product in products:
-            if is_similar(product["name"], cat):
-                matching_products.append(product)
+    # Initialize a dictionary to hold products per category
+    results_by_category = {cat: [] for cat in categories}
 
-        results_by_category[cat] = matching_products
+    for product in products:
+        predicted_category = classify_product(product["name"], categories)
+
+        # Only store the product in results if it's a recognized category
+        if predicted_category in results_by_category:
+            results_by_category[predicted_category].append(product)
+        else:
+            logger.info(
+                f"Product '{product['name']}' classified as 'none' or unknown category."
+            )
 
     end_time = time.time()
     logger.info(
