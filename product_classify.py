@@ -49,7 +49,7 @@ def classify_product(product_name: str, categories: list[str]) -> str:
     # You can tune this prompt as needed:
     system_prompt = (
         """You are a helpful assistant that classifies food product names into one of the category or closest category. (food products can be indian origin) """
-        "If the product does not fit any of the categories, respond with 'none'."
+        "If the product does not fit any of the categories, respond with 'unclassified'."
     )
     user_prompt = f"""
     Categories: {', '.join(categories)}
