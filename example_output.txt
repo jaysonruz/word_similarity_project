@@ -1,0 +1,57 @@
+Similar products to 'uncooked eggs':
+  - Big Basket: freshol Farm Eggs - Regular, 30 pcs - $229
+  - Big Basket: Eggoz Farm Fresh White Eggs, 30 pcs - $419
+  - Big Basket: Farm Made Free Range Eggs, 24 pcs - $529
+  - Big Basket: Abhi Eggs Nutri+ With Immunity Boosters, 24 pcs - $508.75
+  - Big Basket: SKM Best Plus Eggs, 12 pcs - $156
+  - Big Basket: freshol Farm Eggs - Medium, Brown, 10 pcs - $135
+  - Big Basket: Best Buy Eggs - Wholesome, Rich in Protein, Vitamins & Amino Acids, 30 pcs - $530
+  - Big Basket: UFP Healthy Brown Eggs - Large, Rich in Protein, Great For Bones, 30 pcs - $430
+  - Big Basket: Country Cage Free Eggs - Medium, 6 pcs - $110
+
+Similar products to 'uncooked dals':
+  - Big Basket: Yellow Dal - $3.2
+  - Big Basket: Tata Sampann Toor Dal/Togari Bele 500g Pouch - $105
+  - Big Basket: bb Popular Toor/Arhar Dal 5kg Pouch - $1085
+  - Big Basket: bb Royal Organic Toor Dal/Togari Bele 5kg Pouch - $938
+  - Big Basket: bb Royal Toor Dal/Togari Bele - Desi 1kg Pouch - $194.5
+  - Big Basket: Tata Sampann Urad Dal/Ulundhu Bele Whole White 1kg - $192.5
+  - Big Basket: bb Popular Moong Dal/Hesaru Bele 500g Pouch - $99
+  - Big Basket: Tata Sampann Moong Dal/Hesaru Bele 500g Pouch - $172
+
+Similar products to 'veg momo's':
+  - No matching products found.
+
+Similar products to 'nonveg momo's':
+  - BigBasket: Prasuma Spicy Chicken Momos, 24 pcs - $0
+
+Similar products to 'peanuts':
+  - Big Basket: bb Royal Peanuts/Kadlekai - Raw 1kg Pouch - $209
+  - Big Basket: bb Royal Organic Raw Peanuts 2×1kg Multipack - $414
+
+Similar products to 'chicken nuggets':
+  - BigBasket: Venkys Chicken Nuggets, 1 kg - $635.0
+  - BigBasket: ITC Master Chef Crunchy Chicken Nuggets, 450 g - $253.5
+  - BigBasket: Godrej Yummiez Chicken Nuggets, 500 g Pouch - $350.0
+  - BigBasket: Sumeru Chicken Nuggets - Crunchy Snacks, Ready To Fry, 450 g - $299.0
+  - BigBasket: ITC Master Chef Crunchy Chicken Nuggets, 1 kg (55 pcs) - $487.5
+  - BigBasket: Delicious Chicken Nuggets, 1 Kg - $441.0
+  - BigBasket: SFP Chicken Nuggets, 500 g Pouch - $280.0
+  - BigBasket: Total Chicken Nuggets - Crispy, 360 g - $255.0
+  - BigBasket: Venky's Chicken Nuggets, 1 kg - $0
+  - BigBasket: ZIPPY Chicken Nuggets - Fry & Serve, 500 g - $225.72
+
+Similar products to 'raw chicken':
+  - BigBasket: Fresho Chicken Breast - Boneless, 500 g (2 - 4 pcs approx.) - $189.0
+  - BigBasket: Fresho Jhatka Chicken Breast Boneless, 450 g (2 - 4 pcs approx.) - $309.0
+  - BigBasket: Fresho Chicken Breast - Boneless, 250 g (1 - 2 pcs approx.) - $99.0
+  - BigBasket: Fresho Chicken Gizzard, 450 g (18 - 25 pcs approx.) - $79.0
+  - BigBasket: Fresho Chicken Wings, 900 g (11 - 16 pcs approx.) - $299.0
+
+Similar products to 'cooking oil':
+  - No matching products found.
+
+Similar products to 'oils':
+  - BigBasket: Parachute 100% Pure Coconut Oil, 300 ml - $108.75
+
+2025-01-11 13:52:36,957 [INFO] Total script execution time: 26.93s

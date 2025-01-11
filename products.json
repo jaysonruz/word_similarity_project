@@ -141,5 +141,119 @@
         "name": "Prasuma Spicy Chicken Momos, 24 pcs",
         "price": 0,
         "url": "https://www.bigbasket.com/pd/40177263/prasuma-chicken-momos-spicy-24-pcs/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "ITC Master Chef Crunchy Chicken Nuggets, 450 g",
+        "price": 253.5,
+        "url": "https://www.bigbasket.com/pd/40141864/itc-master-chef-chicken-nuggets-crunchy-450-g/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Godrej Yummiez Chicken Nuggets, 500 g Pouch",
+        "price": 350.0,
+        "url": "https://www.bigbasket.com/pd/268193/yummiez-nuggets-chicken-500-g-pouch/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Sumeru Chicken Nuggets - Crunchy Snacks, Ready To Fry, 450 g",
+        "price": 299.0,
+        "url": "https://www.bigbasket.com/pd/40086309/sumeru-chicken-nuggets-450-g/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "ITC Master Chef Crunchy Chicken Nuggets, 1 kg (55 pcs)",
+        "price": 487.5,
+        "url": "https://www.bigbasket.com/pd/40227104/itc-master-chef-crunchy-chicken-nuggets-ready-to-cook-1-kg/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Delicious Chicken Nuggets, 1 Kg",
+        "price": 441.0,
+        "url": "https://www.bigbasket.com/pd/40191853/elicious-chicken-nuggets-1-kg/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "SFP Chicken Nuggets, 500 g Pouch",
+        "price": 280.0,
+        "url": "https://www.bigbasket.com/pd/40018664/sfp-chicken-nuggets-500-g-pouch/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Total Chicken Nuggets - Crispy, 360 g",
+        "price": 255.0,
+        "url": "https://www.bigbasket.com/pd/40062710/total-chicken-nuggets-crispy-360-g/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Venky's Chicken Nuggets, 1 kg",
+        "price": 0,
+        "url": "https://www.bigbasket.com/pd/800482767/venkys-chicken-nuggets-1-kg/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "ZIPPY Chicken Nuggets - Fry & Serve, 500 g",
+        "price": 225.72,
+        "url": "https://www.bigbasket.com/pd/40279445/zippy-chicken-nuggets-fry-serve-500-g/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Ustraa Ayurvedic Hair Oil, 200 ml",
+        "price": 119.6,
+        "url": "https://www.bigbasket.com/pd/40212555/ustraa-ayurvedic-hair-oil-200-ml/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Emami 7 Oils In One Light, Non-Sticky & Non-Greasy Hair Oil, 200 ml",
+        "price": 129.27,
+        "url": "https://www.bigbasket.com/pd/40074062/emami-7-oils-hair-oil-light-non-sticky-for-stronger-hair-200-ml/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Parachute Advansed Jasmine Coconut Hair Oil With Vitamin E - Non-Sticky, 90 ml",
+        "price": 38.0,
+        "url": "https://www.bigbasket.com/pd/263878/parachute-advansed-jasmine-non-sticky-coconut-hair-oil-90-ml-bottle/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Parachute Advansed Ayurvedic Coconut Hair Oil for Hair Fall Control & Hair Growth, 300 ml",
+        "price": 155.8,
+        "url": "https://www.bigbasket.com/pd/20004212/parachute-advansed-ayurvedic-coconut-hair-oil-300-ml-bottle/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Parachute 100% Pure Coconut Oil, 300 ml",
+        "price": 108.75,
+        "url": "https://bbsaathi.bigbasket.com/pd/40132874/parachute-pure-coconut-oil-300-ml-bottle/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Parachute Advansed Sampoorna Coconut Hair Oil, 400 ml",
+        "price": 220.0,
+        "url": "https://www.bigbasket.com/pd/40310555/parachute-advansed-sampoorna-coconut-hair-oil-400-ml/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Bajaj Almond Drops Non-Sticky Hair Oil - With 6X Vitamin E Nourishment, 190 ml",
+        "price": 137.74,
+        "url": "https://www.bigbasket.com/pd/258357/bajaj-almond-drops-hair-oil-6x-vitamin-e-reduces-hair-fall-200-ml/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Emami 7 Oils In One Organics Onion Blackseed Hair Oil - Anti Hair-Fall, Non-Sticky, 200 ml",
+        "price": 220.0,
+        "url": "https://www.bigbasket.com/pd/40313561/emami-7-oils-in-one-organics-onion-blackseed-hair-oil-anti-hair-fall-non-sticky-200-ml/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Kerala Ayurveda Neelibringadi Keram Daily Hair Oil with Bhringraj, Neeli, Karnasphota, and Amla, 200 ml",
+        "price": 350.0,
+        "url": "https://www.bigbasket.com/pd/40201597/kerala-ayurveda-neelibringadi-keram-200-ml/"
+    },
+    {
+        "store": "BigBasket",
+        "name": "Dabur Vatika Enriched Coconut Hair Oil - With 10 Herbs, 300 ml",
+        "price": 153.0,
+        "url": "https://www.bigbasket.com/pd/40121111/dabur-vatika-vatika-enriched-coconut-hair-oil-300-ml/"
     }
 ]
