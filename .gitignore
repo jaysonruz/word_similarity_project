@@ -1,0 +1,55 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.env/
+venv/
+*.env
+*.venv
+env/
+ENV/
+*.env.bak
+app_env/
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+wheels/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*.pot
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Git ignores
+# .gitignore
+
+# Coverage and test reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# Pylint reports
+pylint.log
